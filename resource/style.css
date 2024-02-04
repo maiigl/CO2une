@@ -1,0 +1,345 @@
+/* Header Styles */
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    background: #F5F7FA;
+  }
+  
+  #logoHeader {
+    width: auto;
+    height: 84px;
+    margin-right: 8px;
+
+  }
+  
+  .menu {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 29.55%;
+    right: 29.62%;
+    top: 35.71%;
+    bottom: 35.71%;
+  }
+  
+  .menu li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18191F;
+  }
+  
+  .menu li:hover {
+    color: #4CAF4F;
+    cursor: pointer;
+  }
+  .login {
+    display: flex;
+    gap: 0px;
+    position: absolute;
+    right: 3%; /* Anpassung hier, um den Abstand zum rechten Rand zu verringern */
+    top: 10%; /* Anpassung hier, um den Abstand zum oberen Rand zu erhöhen */
+    list-style: none;
+  }
+  
+  .login button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 6px;
+  }
+  
+
+  #loginButton {
+    background: #F5F7FA;
+    color: #4CAF4F;
+    border: none;
+    box-shadow: none;
+  }
+  
+  #SignUpButton {
+    background: #4CAF4F;
+    color: #FFFFFF;
+    border: 1px solid #4CAF4F; /* Hinzugefügt: Border für Normalzustand */
+    box-shadow: none;
+  }
+  
+  #loginButton:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  #SignUpButton:hover {
+    color: #4CAF4F;
+    background: #F5F7FA;
+    cursor: pointer;
+    border: 3px solid #4CAF4F;
+  }
+  
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    padding-top: 96px;
+    gap: 16px;
+    width: 1440px;
+    height: 599px;
+    background: #F5F7FA;
+}
+
+/* Text */
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 100px;
+    gap: 50px;
+}
+
+.text h1,
+.text p {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.text h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #4D4D4D;
+    text-align: left;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 24px;
+    color: #717171;
+    text-align: left;
+}
+
+/* Button */
+.text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    gap: 10px;
+    background: #4CAF4F;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #4CAF4F;
+    width: 200px;
+    font-family: 'Inter';
+    font-size: 24px;
+}
+
+.text button:hover {
+    color: #4CAF4F;
+    background: #F5F7FA;
+    cursor: pointer;
+    border: 3px solid #4CAF4F;
+}
+
+#hero-image img {
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+
+/* Additional Styling (Optional) */
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Vision Section */
+.vision {
+  text-align: center;
+  padding: 50px 0px;
+  width: 1440px;
+  
+}
+
+/* Vision Statement */
+.visionStatement h2 {
+  font-family: 'Inter';
+  font-size: 64px;
+  color: #4D4D4D;
+  margin: 50px;
+  padding-bottom: 50px;
+}
+
+/* Vision Containers */
+.visionContainers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+/* Individual Vision Container */
+.visionContainer {
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Vision Container Image */
+.visionContainers img {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+/* Vision Container Heading */
+.visionContainers h3 {
+  font-family: 'Inter';
+  font-size: 48px;
+  color: #4D4D4D;
+}
+
+/* Vision Container Paragraph */
+.visionContainers p {
+  font-family: 'Inter';
+  font-size: 26px;
+  color: #717171;
+  line-height: 1.5;
+  margin: 50px;
+}
+
+/* Achievements */
+
+/* Auto layout */
+.statistics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 0px;
+  gap: 30px;
+  width: 1440px;
+  height: 288px;
+  background: #F5F7FA;
+}
+
+/* Individual Statistic Items */
+
+/* Auto layout */
+.statistics {
+  display: flex;
+  align-items: center;
+  padding: 64px 0px;
+  gap: 60px;
+  width: 100%;
+  max-width: 1440px; /* Adjust as needed */
+  background: #F5F7FA;
+}
+
+/* Statistic Text */
+.statisticText {
+  margin:50px;
+  font-size: 46px;
+  
+}
+
+/* Statistic Grid */
+.statistic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Individual Statistic Items */
+.statistic1,
+.statistic2,
+.statistic3,
+.statistic4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+/* Inside auto layout */
+.statistic1 img,
+.statistic2 img,
+.statistic3 img,
+.statistic4 img {
+  width: 48px;
+  height: 48px;
+}
+
+/* Details */
+
+/* Auto layout */
+.statistic1 div,
+.statistic2 div,
+.statistic3 div,
+.statistic4 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  width: 100%;
+}
+
+/* Number */
+.statistic1 h3,
+.statistic2 h3,
+.statistic3 h3,
+.statistic4 h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  color: #4D4D4D;
+  margin: 10px;
+}
+
+/* Label */
+.statistic1 p,
+.statistic2 p,
+.statistic3 p,
+.statistic4 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #717171;
+  margin-top: 30px;
+  text-align: center;
+}
+

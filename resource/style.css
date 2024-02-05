@@ -436,3 +436,96 @@ body {
   border: 1.1px solid #FFFFFF;
   transform: rotate(-90deg);
 }
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 64px 0px;
+  background: #263238;
+  width: 1440px;
+  height: 328px;
+}
+
+/* Footer Bucket 1 */
+.footerBucket1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  height: 189.67px;
+  color: white;
+  gap: 10px;
+  font-family: 'Inter';
+  font-size: 26px;
+}
+
+.footerBucket1 img {
+  width: 191px;
+  display: flex;
+  align-items: center;
+  gap: 9.89px;
+}
+
+.footerBucket1 button {
+  font-size: 24px;
+  border: none;
+  background-color: #263238;
+  color: white;
+}
+
+/* Footer Bucket 2 */
+.footerBucket2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 255px;
+  height: 92px;
+  
+}
+
+.footerBucket2 h4 {
+
+  line-height: 28px;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.footerBucket2 form {
+  width: 255px;
+  height: 40px;
+  position: relative;
+}
+
+.footerBucket2 label {
+  color: #D9DBE1;
+  left: 4.71%;
+  right: 45.88%;
+  top: 66.3%;
+  bottom: 11.96%;
+  font-family: 'Inter';
+  font-size: 26px;
+}
+
+.footerBucket2 input {
+  width: 150%;
+  height: 120%;
+  background: #FFFFFF;
+  opacity: 0.2;
+  border-radius: 10px;
+  color: black;
+  font-size: 26px;
+}
+
+.footerBucket2 button {
+  position: absolute;
+  left: 88.24%;
+  right: 4.71%;
+  top: 68.48%;
+  bottom: 11.96%;
+  background: #FFFFFF;
+}

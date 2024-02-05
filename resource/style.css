@@ -4,11 +4,10 @@ html {
   margin: 0 auto;
 }
 header {
-    position: absolute;
+    position: fixed;
     width: 1440px;
     height: 84px;
     left: 380,25px;
-
     top: 0px;
     background: #F5F7FA;
   }
@@ -17,7 +16,6 @@ header {
     width: auto;
     height: 84px;
     margin-right: 8px;
-
   }
   
   .menu {

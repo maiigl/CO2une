@@ -269,7 +269,7 @@ body {
 .statisticText {
   margin:50px;
   font-size: 46px;
-  
+  color: #4D4D4D;
 }
 
 /* Statistic Grid */
@@ -365,7 +365,7 @@ body {
   font-size: 64px; /* Adjusted font size to match HTML h2 */
   line-height: 38px; /* Adjusted line height to match HTML h2 */
   text-align: center;
-  color: #263238;
+  color: #4D4D4D;
 }
 
 /* Button */
@@ -385,6 +385,7 @@ body {
   width: 200px;
   font-family: 'Inter';
   font-size: 24px;
+  margin-bottom: 53px;
 }
 
 .demo button:hover {

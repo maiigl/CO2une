@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact CO2une</title>
+    <link rel="stylesheet" href="/resource/contact.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+
+   <!-- header -->
+   <div>
+    <header>
+      <img
+        src="/resource/images/CO2une-Logo.png"
+        alt="CO2une-Logo"
+        id="logoHeader" />
+      <ul class="menu">
+        <li>Home</li>
+        <li>Vision</li>
+        <li>Pricing</li>
+        <li style="color: #4caf4f;">Contact</li>
+        <li>FAQ</li>
+      </ul>
+      <ul class="login">
+        <li><button id="loginButton">Login</button></li>
+        <li><button id="SignUpButton">Sign Up</button></li>
+      </ul>
+    </header>
+  </div>
+
+  <body>
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Contact</h2>
+          <hr />
+        </div>
+        <input type="hidden" name="access_key" value="81f1f59f-8794-492f-b1bb-64cc4b113ba6">
+        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required />
+        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required />   
+        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+        <button type="submit">Submit<img src="/resource/images/Icon_arrow.png" alt=""></button>   
+    </form>
+    <div class="contact-right">
+<img src="/resource/images/Michael_Golm_Picture.jpg" alt="">
+    </div>
+    </div>
+  </body>
+    <!-- footer -->
+    <footer>
+        <div class="footerBucket1">
+          <img src="/resource/images/CO2une-Logo_dark.png" alt="" />
+          <p>Copyright &copy; <em id="date"></em>CO2une GmbH</p>
+          <p>All rights reserved</p>
+          <div class="socials">
+            <button style="font-size: 24px">
+              <i class="fa fa-linkedin-square" style="font-size: 24px"></i>
+            </button>
+            <button style="font-size: 24px">
+              <i class="fa fa-instagram" style="font-size: 24px"></i>
+            </button>
+            <button style="font-size: 24px">
+              <i class="fa fa-twitter" style="font-size: 24px"></i>
+            </button>
+            <button style="font-size: 24px">
+              <i class="fa fa-envelope" style="font-size: 24px"></i>
+            </button>
+          </div>
+        </div>
+        <div class="footerBucket2">
+          <h4>Stay up to date</h4>
+          <form action="">
+            <label for="email">Your email adress:</label>
+            <input type="text" />
+          </form>
+        </div>
+      </footer>
+</html>

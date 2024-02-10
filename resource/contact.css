@@ -1,12 +1,10 @@
-
-
+/* Header Styles */
 html {
     width: 1440px;
     margin: 0 auto;
-}
-
-
-header {
+  }
+  
+  header {
     position: fixed;
     width: 1440px;
     height: 84px;
@@ -103,7 +101,7 @@ header {
     cursor: pointer;
     border: 3px solid #4caf4f;
   }
-
+  
 body {
     font-family: 'Inter';
     background: #f5f7fa
@@ -116,6 +114,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 1440px;
 }
 
 .contact-left {

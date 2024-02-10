@@ -102,6 +102,11 @@ header {
   border: 3px solid #4caf4f;
 }
 
+body {
+  font-family: 'Inter';
+  background: #f5f7fa
+
+}
 /* Hero Section */
 .hero {
   display: flex;
@@ -185,6 +190,7 @@ body {
   text-align: center;
   padding: 50px 0;
   width: 1440px;
+  background-color: #FFF;
 }
 
 /* Vision Statement */

@@ -1,0 +1,10 @@
+body{
+    background: black;
+    background-blend-mode: multiply;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: #f5f7fa;
+    }
+}

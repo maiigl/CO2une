@@ -1,105 +1,6 @@
-/* Header Styles */
 html {
     width: 1440px;
     margin: 0 auto;
-  }
-  
-  header {
-    position: fixed;
-    width: 1440px;
-    height: 84px;
-    top: 0;
-    background: #f5f7fa;
-    border-bottom: 3px solid #263238;
-  }
-  
-  #logoHeader {
-    width: auto;
-    height: 84px;
-    margin-right: 8px;
-  }
-  
-  .menu {
-    display: flex;
-    gap: 100px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    left: 29.55%;
-    right: 29.62%;
-    top: 35.71%;
-    bottom: 35.71%;
-  }
-  
-  .menu li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: auto;
-    height: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #18191f;
-  }
-  
-  .menu li:hover {
-    color: #4caf4f;
-    cursor: pointer;
-  }
-  
-  .login {
-    display: flex;
-    gap: 0;
-    position: absolute;
-    right: 3%;
-    top: 10%;
-    list-style: none;
-  }
-  
-  .login button {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100px;
-    height: 40px;
-    padding: 10px 20px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 6px;
-  }
-  
-  #loginButton {
-    background: #f5f7fa;
-    color: #4caf4f;
-    border: none;
-    box-shadow: none;
-  }
-  
-  #SignUpButton {
-    background: #4caf4f;
-    color: #fff;
-    border: 1px solid #4caf4f;
-    box-shadow: none;
-  }
-  
-  #loginButton:hover {
-    color: black;
-    cursor: pointer;
-  }
-  
-  #SignUpButton:hover {
-    color: #4caf4f;
-    background: #f5f7fa;
-    cursor: pointer;
-    border: 3px solid #4caf4f;
   }
   
 body {
@@ -108,7 +9,7 @@ body {
   
 }
     
-
+/* Contact Container */
 .contact-container {
     height: 100vh;
     display: flex;
@@ -187,88 +88,8 @@ body {
   font-size: 20px;
   }
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: space-around;
-    padding: 64px 0;
-    background: #263238;
-    width: 1440px;
-    height: 328px;
-  }
-  
-  /* Footer Bucket 1 */
-  .footerBucket1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 400px;
-    height: 189.67px;
-    color: white;
-    gap: 10px;
-    font-family: 'Inter';
-    font-size: 26px;
-  }
-  
-  .footerBucket1 img {
-    width: 191px;
-    display: flex;
-    align-items: center;
-    gap: 9.89px;
-  }
-  
-  .footerBucket1 button {
-    font-size: 24px;
-    border: none;
-    background-color: #263238;
-    color: white;
-  }
-  
-  /* Footer Bucket 2 */
-  .footerBucket2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    width: 255px;
-    height: 92px;
-  }
-  
-  .footerBucket2 h4 {
-    line-height: 28px;
-    color: #fff;
-    font-family: 'Inter';
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-  
-  .footerBucket2 form {
-    width: 255px;
-    height: 40px;
-    position: relative;
-  }
-  
-  .footerBucket2 label {
-    color: #d9dbe1;
-    font-family: 'Inter';
-    font-size: 26px;
-  }
-  
-  .footerBucket2 input {
-    width: 150%;
-    height: 120%;
-    background: #fff;
-    opacity: 0.2;
-    border-radius: 10px;
-    color: black;
-    font-size: 26px;
-  }
-  
-  .footerBucket2 button {
-    position: absolute;
-    background: #fff;
-    left: 88.24%;
-    right: 4.71%;
-    top: 68.48%;
-  }
-  
+  @media (max-width: 991px) {
+    .sidebar {
+        background-color: #f5f7fa;
+    }
+}
